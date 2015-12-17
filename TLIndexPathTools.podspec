@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT" }
   s.author       = { "wtmoose" => "wtm@tractablelabs.com" }
   s.source       = { :git => "https://github.com/wtmoose/TLIndexPathTools.git", :tag => '0.4.2' }
-  s.platform     = :ios, '8.0'
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
   s.source_files = 'TLIndexPathTools/**/*.{h,m}'
   s.frameworks = 'UIKit', 'QuartzCore', 'CoreData', 'Foundation'
   s.requires_arc = true
